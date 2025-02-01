@@ -21,7 +21,7 @@ public class AntiScreen extends Module {
     private final Setting<Boolean> demoScreen = sgGeneral.add(new BoolSetting.Builder()
             .name("demo-screen")
             .description("Removes the demo screen.")
-            .defaultValue(true)
+            .defaultValue(false)
             .build()
     );
 
